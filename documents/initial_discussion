@@ -6,9 +6,9 @@ Open questions =>
 - One possible answer is that we create the DB object using config
 - Can I create 10 Database objects?
 - How to release the Database object once we are done using that cursor
+- I think that connecting database directly using the driver and getting the cursor would be the more ideal way of doing this
 
 POC required =>
 - Creating multiple databases object and store it in some array
 - Second stage would be to make this stroage array generic that can store anything
-- Creating an algorithm that will help us to understand and get the database pointer that was recently freed as it would be a warm connection, if no warm connections are found we will try
-to get the cold pointer.
+- Creating an algorithm that will help us to understand and get the database pointer that was recently freed as it would be a warm connection, if no warm connections are found we will try to get the cold pointer.
