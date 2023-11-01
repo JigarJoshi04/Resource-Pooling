@@ -1,0 +1,2 @@
+This would be the POC to test if there can be "n" number of open connections with the database and all of them should be in the active case.
+They should not cold connect atleast, even if they are in the idle state.
